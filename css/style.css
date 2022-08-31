@@ -1,0 +1,88 @@
+body {
+    margin: 100px 0px 0px 0px;
+    background-color: white;
+}
+
+/* command */
+.orange {
+    background-color: orange;
+}
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 95px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+li {
+    margin-right: 100px;
+
+}
+li div {
+    border-bottom: white solid 2px;
+    width: 0%;
+    left: 50%;
+    position: relative;
+    transition: width 1s, left 1s;
+}
+li:hover div {
+    left: 30%;
+    width: 50%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.backImage {
+    background-image: url('../pictures/hero-image.jpg');
+    background-size: cover;
+    background-repeat: none;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.backImage h3 {
+    background-color: white;
+    padding: 10px;
+    margin: 60px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+h3 {
+    font-size: 50px;
+}
+
+.heightWidth {
+    height: 500px;
+    width: 100%;
+}
+
+.multipleImages {
+    display: flex;
+    justify-content: space-around;
+}
+.tripleImage {
+    width: 400px;
+    height: auto;
+}
+
+.quadImage {
+    width: 300px;
+    height: auto;
+}
