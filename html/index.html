@@ -3,31 +3,32 @@
     <head>
         <title>hamburger website</title>
         <link rel="stylesheet" href="../css/style.css">
+        <script src="https://kit.fontawesome.com/5cda464b14.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <!-- navigation bar -->
         <nav class="orange">
             <div>
-                <img src="../pictures/ryparis-logo.png">
+                <a href="index.html"><img src="../pictures/ryparis-logo.png"></a>
             </div>
             <div>
-                <ul>
-                    <li><div></div><a href="#">Popular Recipes</a></li>
-                    <li><div></div><a href="#">What's New</a></li>
-                    <li><div></div><a href="#">Categories</a></li>
-                    <li><div></div><a href="#">Meal Ideas</a></li>
+                <ul class="navigationUl">
+                    <li><div></div><a href="recipe.html" class="navigationLinks">Popular Recipes</a></li>
+                    <li><div></div><a href="#" class="navigationLinks">What's New</a></li>
+                    <li><div></div><a href="#" class="navigationLinks">Categories</a></li>
+                    <li><div></div><a href="#" class="navigationLinks">Meal Ideas</a></li>
                 </ul>
             </div>
         </nav>
-            <div class="content">
+        <div class="content">
         <!-- first section/title -->
-            <div class="backImage">
+            <div class="backImage hero">
                 <h3>START THE WEEK OFF RIGHT</h3>
             </div>
             <div>
                 <div class="heightWidth">
-                    <div>
-                        <h2>Everyday Categories</h2>
+                    <div class="textMargin">
+                        <h3>Everyday Categories</h3>
                         <p>Everyday Food has developed recipes with the 
                         home cook in mind. These delicious dishes featured
                         on "RY Paris" call for simple ingredients that you 
@@ -36,29 +37,26 @@
                     </div>
                     <!-- second section -->
                     <div class="multipleImages">
-                        <div >
-
-                            <!-- FUTURE ME, USE BACKGROUND IMAGES -->
-
-                            <img src="../pictures/breakfast-ideas.jpg" 
-                            alt="breakfast ideas" class="tripleImage">
+                        <div>
+                            <div class="tripleImage breakfast"></div>
                             <h5>Breakfast Most Important Meal</h5>
+                            
                         </div>
                         <div>
-                            <img src="../pictures/vegetarian-ideas.jpg" 
-                            alt="Vegetarian Lunch Ideas" class="tripleImage">
+                            <div class="tripleImage lunch"></div>
                             <h5>Vegetarian Lunch Ideas</h5>
+                            
                         </div>
                         <div>
-                            <img src="../pictures/cold-weather-dinners.jpeg" 
-                            alt="Cold-Weather Weeknight Dinners" class="tripleImage">
+                            <div class="tripleImage dinner"></div>
                             <h5>Cold-Weather Weeknight Dinners</h5>
+                            
                         </div>
                     </div>
                 </div>    
                 <!-- third section -->
-                <div>
-                    <div>
+                <div class="grayBack">
+                    <div class="textMargin">
                         <h3>Healthy Recipes of the Week</h3>
                         <p>This weeks top award winners to 
                             critically-acclaimed recipe gems, check out these 
@@ -68,39 +66,39 @@
                     <div class="multipleImages">
                         <div>
                             <div>
-                                <img src="../pictures/fajita-peppers.jpeg"
-                                alt="fajita-peppers" class="quadImage">
-                                <h4>Fajita-Stuffed Peppers</h4>
+                                <div class="quadImage peppers"></div>
+                                <h5>Fajita-Stuffed Peppers</h5>
+                                
                             </div>
                         </div>
                         <div>
                             <div>
-                                <img src="../pictures/muffins.jpeg"
-                                alt="muffins" class="quadImage">
-                                <h4>Ree's Breakfast Muffins</h4>
+                                <div class="quadImage muffins"></div>
+                                <h5>Ree's Breakfast Muffins</h5>
+                                
                             </div>
                         </div>
                         <div>
                             <div>
-                                <img src="../pictures/eggplant-parmesan.jpg"
-                                alt="eggplant dish" class="quadImage">
-                                <h4>Eggplant Parmesan</h4>
+                                <div class="quadImage eggplant"></div>
+                                <h5>Eggplant Parmesan</h5>
+                                
                             </div>
                         </div>
                         <div>
                             <div>
-                                <img src="../pictures/teriyaki-chicken.jpeg"
-                                alt="Teriyaki Chicken" class="quadImage">
-                                <h4>Teriyaki Chicken Thighs</h4>
+                                <div class="quadImage chicken"></div>
+                                <h5>Teriyaki Chicken Thighs</h5>
+                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- fourth section -->
-            <div class="heightWidth">
-                <div>
-                    <h4>Where to Eat</h4>
+            <div class="bottomMargin">
+                <div class="textMargin">
+                    <h3>Where to Eat</h3>
                     <p>This is not the aspirational fluff of Instagram 
                         wall neon; it's fact. Recent surveys have shown 
                         that a majority of travelers consider food first 
@@ -120,28 +118,29 @@
                 </div>
                 <div class="multipleImages">
                     <div>
-                        <img src="../pictures/best_sandwich.jpeg"
-                        alt="best sandwiches" class="tripleImage">
-                        <h6>Best Sandwiches in America</h6>
+                        <div class="tripleImage sandwich grayBorder"></div>
+                        <h5>Best Sandwiches in America</h5>
+                        
                     </div>
                     <div>
-                        <img src="../pictures/pizza.jpeg"
-                        alt="pizza slices" class="tripleImage">
-                        <h6>50 States of Pizza Slices</h6>
+                        <div class="tripleImage pizza grayBorder"></div>
+                        <h5>50 States of Pizza Slices</h5>
+                        
                     </div>
                     <div>
-                        <img src="../pictures/pasta.jpeg"
-                        alt="pasta" class="tripleImage">
-                        <h6>City Guides</h6>
+                        <div class="tripleImage pasta grayBorder"></div>
+                        <h5>City Guides</h5>
+                        
                     </div>
                 </div>
             </div>
-            <div class="orange">
+            <!-- footer -->
+            <div class="orange footer">
                 <div>
                     <h6>&copy; 2020 RY PARIS</h6>
                 </div>
                 <div>
-                    <ul>
+                    <ul class="navigationUl">
                         <li><div></div><a href="#">Site Map</a></li>
                         <li><div></div><a href="#">Privacy Policy</a></li>
                         <li><div></div><a href="#">About</a></li>
