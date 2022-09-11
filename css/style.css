@@ -218,6 +218,11 @@ ol li {
 h2 {
     font-size: 50px;
 }
+
+.video {
+    width: 100%;
+    height: 700px;
+}
 /* image settings */
 .multipleImages {
     display: flex;
